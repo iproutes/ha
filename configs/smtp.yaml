@@ -1,0 +1,9 @@
+# Example configuration.yaml entry
+notify:
+  - name: "email"
+    platform: smtp
+    sender: "homeassistant@YOURDOMAIN.COM"
+    recipient: "YOU@YOURDOMAIN.COM"
+    server: smtp.YOURDOMAIN.COM
+    port: 25
+    encryption: none
